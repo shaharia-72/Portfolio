@@ -89,6 +89,20 @@ body {
   color: var(--text-color);
 }
 
+body,
+a {
+  user-select: none; /* Disable text selection */
+  -webkit-user-select: none; /* For WebKit browsers */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For IE and Edge */
+  outline: none; /* Remove focus outline */
+}
+
+a {
+  -webkit-tap-highlight-color: transparent; /* Disable mobile tap highlight */
+  text-decoration: none; /* Optional: Remove link underlines */
+}
+
 h1,
 h2,
 h3 {
