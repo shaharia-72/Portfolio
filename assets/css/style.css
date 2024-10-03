@@ -1379,8 +1379,8 @@ textarea.input {
 
   .qualification__container {
     /* justify-content: center; */
-    padding-left: 140px;
-    grid-template-columns: repeat(2, 290px);
+    /* padding-left: 140px; */
+    grid-template-columns: repeat(2, 500px);
   }
 
   .skills__container {
@@ -1485,7 +1485,7 @@ textarea.input {
   }
 
   .qualification__container {
-    grid-template-columns: 290px;
+    grid-template-columns: 500px;
     row-gap: 3rem;
   }
 
