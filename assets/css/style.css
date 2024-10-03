@@ -1657,7 +1657,7 @@ textarea.input {
   }
 
   .footer__container {
-    grid-template-columns: 1.2fr;
+    grid-template-columns: 2fr;
   }
 
   .footer__link {
