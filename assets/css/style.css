@@ -506,9 +506,16 @@ input {
 }
 
 .qualification__container {
-  grid-template-columns: repeat(2, 340px);
-  column-gap: 5rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  column-gap: 15rem;
+  justify-content: space-evenly;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+  height: auto;
 }
 
 .qualification__title {
@@ -518,6 +525,7 @@ input {
 }
 
 .timeline__text {
+  display: flexbox;
   text-align: justify;
 }
 
@@ -1411,6 +1419,10 @@ textarea.input {
 
   .home__img {
     height: 200px;
+  }
+
+  .qualification__container {
+    font-size: 16px;
   }
 }
 
