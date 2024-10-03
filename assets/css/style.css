@@ -470,6 +470,12 @@ input {
   text-align: justify;
   padding-right: 6rem;
   margin-bottom: var(--mb-2);
+  line-height: 1.5;
+}
+
+.about__description p {
+  margin-bottom: 0.1px;
+  /* line-height: 6; */
 }
 
 .about__info {
@@ -501,7 +507,7 @@ input {
 
 .qualification__container {
   grid-template-columns: repeat(2, 340px);
-  column-gap: 3rem;
+  column-gap: 5rem;
   justify-content: center;
 }
 
@@ -509,6 +515,10 @@ input {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2);
+}
+
+.timeline__text {
+  text-align: justify;
 }
 
 .timeline__item {
@@ -548,8 +558,8 @@ input {
 }
 
 .timeline__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-bold);
   margin-bottom: var(--mb-0-25);
 }
 
@@ -1206,7 +1216,7 @@ textarea.input {
   .about__container {
     column-gap: var(--mb-2-5);
   }
-
+  .timeline__title,
   .about__description {
     padding-right: 0;
   }
@@ -1238,7 +1248,8 @@ textarea.input {
     border-radius: 0.75rem;
     justify-self: center;
   }
-  .about__description {
+  .about__description,
+  .timeline__title {
     padding-right: 15px;
   }
   .work__container {
@@ -1456,7 +1467,8 @@ textarea.input {
     padding: 0.75rem 0.5rem;
   }
 
-  .about__description {
+  .about__description,
+  .timeline__title {
     padding: 0 4rem;
   }
 
@@ -1635,7 +1647,8 @@ textarea.input {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .about__description {
+  .about__description,
+  .timeline__title {
     padding: 0;
   }
 
