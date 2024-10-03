@@ -1643,7 +1643,7 @@ textarea.input {
   }
 
   .footer__container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1.2fr;
   }
 
   .footer__link {
@@ -1660,7 +1660,7 @@ textarea.input {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
