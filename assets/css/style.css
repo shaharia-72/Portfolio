@@ -287,8 +287,9 @@ input {
 /* Home section */
 
 .home {
-  background: url("../img/black-sand.jpg");
+  background: url("../img/callio2.jpg");
   background-size: cover;
+  background-position: left center;
   background-position: center center;
   height: 100vh;
 }
